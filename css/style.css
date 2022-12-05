@@ -1,7 +1,9 @@
-.verde {
-  background-color: green;
+.card {
+  width: calc(100% / 2 - 2rem);
+  margin: 1rem;
 }
 
-.rosso {
-  background-color: red;
+.my_name {
+  text-align: center;
+  font-size: 1.5rem;
 }
