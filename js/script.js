@@ -39,8 +39,10 @@ for (const key in employees) {
 
 for (let i = 0; i < employees.length; i++) {
   divBox.innerHTML +=
-    '<div class="card d-flex">' +
-    '<img src="img/' + employees[i].foto + '">' +
-    '<div class="my_name">' + employees[i].nome + '</div>' +
-    '<p class="role">' + employees[i].ruolo + '</p>' + '</div>'
+  `<div class="card d-flex">
+  <img src="img/${employees[i].foto}">
+  <div class="my_name">${employees[i].nome}</div>
+  <p class="role">${employees[i].ruolo} </p>
+  </div>
+  `
 }
